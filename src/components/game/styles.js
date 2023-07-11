@@ -41,8 +41,20 @@ const StyledQuestion = styled(motion.button)`
 
 
 `
+const StyledCard = styled(motion.div)`
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 60%;
+	margin: auto;
+	padding:  5rem ;
+	background-color: #ffe6c7;
+	border-radius: 1rem;
+`;
 
 
 
 
-export {StyledContainer, StyledTitle, StyledContainerQuestion, StyledQuestion };
+export {StyledContainer, StyledTitle, StyledContainerQuestion, StyledQuestion , StyledCard };
