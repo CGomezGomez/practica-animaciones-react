@@ -8,7 +8,7 @@ const StyledAnswer = styled(motion.p)`
 	background-color: #ffa559;
 	border: 4px solid #454545;
 	border-radius: 1rem;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: #454545;
 	cursor: pointer;
 	
